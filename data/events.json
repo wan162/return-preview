@@ -1,0 +1,56 @@
+{
+  "shop": "https://www.ticket.return.de.com/",
+  "venue": {
+    "name": "Matrix Club Berlin",
+    "room": "Arch 4",
+    "street": "Warschauer Platz 18",
+    "zip": "10245",
+    "city": "Berlin"
+  },
+  "events": [
+    {
+      "id": "2026-10-23",
+      "date": "2026-10-23",
+      "doors": "22:00",
+      "lineup": ["Kopoloko"],
+      "opening": "Zutri",
+      "genre": "Techno",
+      "entry": { "ladies": 15, "gents": 17 },
+      "age": "18+",
+      "tickets": "https://www.ticket.return.de.com/details/244680/"
+    },
+    {
+      "id": "2026-10-24",
+      "date": "2026-10-24",
+      "doors": "22:00",
+      "lineup": ["Buyooo b2b Kopoloko"],
+      "opening": null,
+      "genre": "Techno",
+      "entry": { "ladies": 15, "gents": 17 },
+      "age": "18+",
+      "tickets": "https://www.ticket.return.de.com/details/244681/"
+    },
+    {
+      "id": "2026-10-30",
+      "date": "2026-10-30",
+      "doors": "22:00",
+      "lineup": ["Any Couture"],
+      "opening": "Freego",
+      "genre": "Techno",
+      "entry": { "ladies": 15, "gents": 17 },
+      "age": "18+",
+      "tickets": "https://www.ticket.return.de.com/details/244682/"
+    },
+    {
+      "id": "2026-10-31",
+      "date": "2026-10-31",
+      "doors": "22:00",
+      "lineup": ["Artness", "Kopoloko", "Buyooo"],
+      "opening": null,
+      "genre": "Techno",
+      "entry": { "ladies": 15, "gents": 17 },
+      "age": "18+",
+      "tickets": "https://www.ticket.return.de.com/details/244683/"
+    }
+  ]
+}

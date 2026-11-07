@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RE:TURN. Techno at Matrix Club Berlin</title>
+  <meta name="description" content="RE:TURN is the techno night of Matrix Club Berlin. Upcoming nights, line-ups and tickets, the residents and the manifesto. Back to what feels real.">
+  <meta name="theme-color" content="#0b0b0c">
+  <link rel="canonical" href="https://return.de.com/">
+  <link rel="icon" href="assets/logo/favicon-64.png" type="image/png" sizes="64x64">
+  <link rel="apple-touch-icon" href="assets/logo/apple-touch-icon.png">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="RE:TURN">
+  <meta property="og:title" content="RE:TURN. Techno at Matrix Club Berlin">
+  <meta property="og:description" content="Upcoming nights, line-ups and tickets. Back to what feels real.">
+  <meta property="og:image" content="https://return.de.com/assets/og.jpg">
+  <meta property="og:url" content="https://return.de.com/">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="preload" href="assets/fonts/anton.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/antonio.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/styles.css">
+  <script>
+    document.documentElement.classList.add('js');
+    if (document.visibilityState === 'visible' && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      document.documentElement.classList.add('hero-anim');
+    }
+  </script>
+  <meta name="robots" content="noindex, nofollow">
+</head>
+<body>
+  <a class="skip" href="#nights">Skip to the nights</a>
+
+  <header class="nav" id="nav">
+    <a class="nav__logo" href="#top" aria-label="RE:TURN, back to top">
+      <img src="assets/logo/re-white-480.png" alt="RE:" width="480" height="206">
+    </a>
+    <nav class="nav__links" aria-label="Main">
+      <a href="#nights">Nights</a>
+      <a href="#vision">Vision</a>
+      <a href="#who">Who we are</a>
+      <a href="#listen">Listen</a>
+      <a href="#club">Club</a>
+    </nav>
+    <a class="btn btn--red nav__cta" data-next-tickets href="https://www.ticket.return.de.com/" target="_blank" rel="noopener">Tickets</a>
+    <button class="nav__burger" id="burger" type="button" aria-expanded="false" aria-controls="menu" aria-label="Open menu">
+      <span></span><span></span>
+    </button>
+  </header>
+
+  <div class="menu" id="menu" hidden>
+    <nav class="menu__links" aria-label="Menu">
+      <a href="#nights">Nights</a>
+      <a href="#vision">Vision</a>
+      <a href="#who">Who we are</a>
+      <a href="#listen">Listen</a>
+      <a href="#club">Club</a>
+      <a href="#awareness">Awareness</a>
+      <a class="menu__tickets" data-next-tickets href="https://www.ticket.return.de.com/" target="_blank" rel="noopener">Tickets</a>
+    </nav>
+    <ul class="menu__social">
+      <li><a href="https://www.instagram.com/returncollective_bln/" target="_blank" rel="noopener">Instagram</a></li>
+      <li><a href="https://ra.co/promoters/186821" target="_blank" rel="noopener">Resident Advisor</a></li>
+      <li><a href="https://soundcloud.com/re-turn-58807653" target="_blank" rel="noopener">SoundCloud</a></li>
+    </ul>
+  </div>
+
+  <main id="top">
+
+    <section class="hero" aria-labelledby="hero-title">
+      <video class="hero__video" autoplay muted loop playsinline preload="metadata" poster="assets/video/hero-poster.jpg" aria-hidden="true" tabindex="-1">
+        <source src="https://github.com/wan162/return-preview/releases/download/media/hero.webm" type="video/webm">
+        <source src="https://github.com/wan162/return-preview/releases/download/media/hero.mp4" type="video/mp4">
+      </video>
+      <div class="hero__scrim" aria-hidden="true"></div>
+      <div class="hero__sentinel" id="hero-sentinel" aria-hidden="true"></div>
+      <div class="hero__content">
+        <h1 class="hero__title" id="hero-title">
+          <img class="hero__mark" src="assets/logo/re-white.png" alt="RE:" width="903" height="387" fetchpriority="high">
+          <span class="hero__line">Turn to what</span>
+          <span class="hero__line hero__line--red">feels real.</span>
+        </h1>
+        <p class="hero__sub">Techno nights at Matrix Club, Berlin.</p>
+        <div class="hero__cta">
+          <a class="btn btn--red" data-next-tickets href="https://www.ticket.return.de.com/" target="_blank" rel="noopener">Tickets</a>
+          <a class="btn btn--ghost" href="#nights">See the nights</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="nights" id="nights" aria-labelledby="nights-title">
+      <div class="wrap">
+        <h2 class="h-display" id="nights-title" data-reveal>Nights</h2>
+        <div id="featured" class="featured-slot"></div>
+        <ol id="events" class="events" aria-label="More upcoming nights"></ol>
+        <p id="events-empty" class="events__empty" hidden>
+          The next nights are being announced. Follow
+          <a href="https://www.instagram.com/returncollective_bln/" target="_blank" rel="noopener">@returncollective_bln</a>
+          or check the <a href="https://www.ticket.return.de.com/" target="_blank" rel="noopener">ticket shop</a>.
+        </p>
+        <noscript>
+          <p class="events__empty">Dates and tickets: <a href="https://www.ticket.return.de.com/">ticket shop</a>.</p>
+        </noscript>
+        <p class="nights__note" data-reveal>
+          Doors 22:00. Strictly 18+, bring your ID. All dates are also on
+          <a href="https://ra.co/promoters/186821" target="_blank" rel="noopener">Resident Advisor</a>.
+        </p>
+      </div>
+    </section>
+
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__track">
+        <span>Back to the body</span><i></i>
+        <span>Back to the sound</span><i></i>
+        <span>Back to what feels real</span><i></i>
+        <span>Back to art made by and for humans</span><i></i>
+        <span>Back to the body</span><i></i>
+        <span>Back to the sound</span><i></i>
+        <span>Back to what feels real</span><i></i>
+        <span>Back to art made by and for humans</span><i></i>
+      </div>
+    </div>
+
+    <section class="manifesto" id="vision" aria-labelledby="vision-title">
+      <div class="wrap manifesto__wrap">
+        <div class="manifesto__arrow" aria-hidden="true"></div>
+        <h2 class="manifesto__big" id="vision-title" data-reveal>
+          <span>The dance floor</span>
+          <span>is not an escape.</span>
+        </h2>
+        <div class="manifesto__cols">
+          <p class="manifesto__lead" data-reveal>It's a shared moment. A musical journey. Movement translated into emotions. And statements turned into actions.</p>
+          <div class="manifesto__text" data-reveal>
+            <p>Darkness. Appearances. Fake freedom. What once felt like a place to disappear, a place to fit in, to pretend, now becomes a place to feel present.</p>
+            <p>RE:TURN is about going back. Back to the body. Back to the sound. Back to what feels real. Back to art made by and for humans. Before the image. Before the performance. Before the distractions. Before the artificial.</p>
+            <p>Behind every night there is a person who put their sweat, tears and heart into it. Mistakes included, for everyone to see. That is the part a machine cannot replace.</p>
+          </div>
+        </div>
+        <div class="manifesto__quotes">
+          <blockquote class="manifesto__quote" data-reveal>
+            <p>“Everyone needs to feel welcome, safe and free to express themselves. Respect the people around you, boundaries, and the environment you're in. Keep it real, human, and authentic.”</p>
+            <footer>Ettore Guerzoni (Free Your Ego), co-founder</footer>
+          </blockquote>
+          <blockquote class="manifesto__quote" data-reveal>
+            <p>“A space where you can become yourself again and experience techno without prejudice, as an artist and as part of the audience.”</p>
+            <footer>Diego Zúñiga (Zutri), co-founder</footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <section class="residents" id="who" aria-labelledby="who-title">
+      <div class="wrap">
+        <h2 class="h-display" id="who-title" data-reveal>Who we are</h2>
+        <ul class="crew" data-reveal>
+          <li class="crew__tile crew__tile--a crew__tile--warm">
+            <figure><img src="assets/img/residents/free-your-ego.jpg" alt="" loading="lazy" width="300" height="608"></figure>
+            <div class="crew__meta">
+              <h3><span class="glitch" data-text="Free Your Ego">Free Your Ego</span></h3>
+              <p>Ettore Guerzoni<br>Resident DJ, producer, label manager</p>
+            </div>
+          </li>
+          <li class="crew__tile crew__tile--b crew__tile--cold">
+            <figure><img src="assets/img/residents/zutri.jpg" alt="" loading="lazy" width="500" height="316"></figure>
+            <div class="crew__meta">
+              <h3><span class="glitch" data-text="Zutri">Zutri</span></h3>
+              <p>Diego Zúñiga<br>Resident DJ, producer, bookings</p>
+            </div>
+          </li>
+          <li class="crew__tile crew__tile--e crew__tile--warm">
+            <figure><img src="assets/img/residents/artness.jpg" alt="" loading="lazy" width="165" height="195"></figure>
+            <div class="crew__meta">
+              <h3><span class="glitch" data-text="Artness">Artness</span></h3>
+              <p>Eduardo Lagunes<br>Resident DJ, producer, podcast</p>
+            </div>
+          </li>
+          <li class="crew__tile crew__tile--d crew__tile--cold">
+            <figure><img src="assets/img/residents/buyooo.jpg" alt="" loading="lazy" width="215" height="208"></figure>
+            <div class="crew__meta">
+              <h3><span class="glitch" data-text="Buyooo">Buyooo</span></h3>
+              <p>Óscar Berzal<br>Resident DJ, producer</p>
+            </div>
+          </li>
+          <li class="crew__tile crew__tile--c crew__tile--cold">
+            <figure><img src="assets/img/residents/kopoloko.jpg" alt="" loading="lazy" width="290" height="318"></figure>
+            <div class="crew__meta">
+              <h3><span class="glitch" data-text="Kopoloko">Kopoloko</span></h3>
+              <p>Konstanze Pönisch<br>Resident DJ, graphic design, social</p>
+            </div>
+          </li>
+        </ul>
+        <p class="residents__note" data-reveal>Video by Ana Monagas. Artwork and social media by Kopoloko.</p>
+      </div>
+    </section>
+
+    <section class="listen" id="listen" aria-labelledby="listen-title">
+      <div class="wrap">
+        <h2 class="h-display" id="listen-title" data-reveal>Listen</h2>
+        <p class="listen__lead" data-reveal>Sets and tracks from the residents, on the RE:TURN SoundCloud.</p>
+        <div class="listen__player" id="sc-player" data-reveal data-embed="https://w.soundcloud.com/player/?visual=true&amp;url=https%3A%2F%2Fapi.soundcloud.com%2Fusers%2F1690827287&amp;show_artwork=true&amp;color=%23c81614&amp;show_teaser=false&amp;hide_related=true">
+          <img class="listen__bg" src="assets/img/stills/cdj.jpg" alt="" loading="lazy" width="1600" height="773">
+          <div class="listen__cover">
+            <img class="listen__glitch" src="assets/brand/glitch.webp" alt="" aria-hidden="true" loading="lazy" width="1152" height="648">
+            <img class="listen__mark" src="assets/logo/re-white-480.png" alt="RE:TURN" width="480" height="206" loading="lazy">
+            <p>The player is loaded from SoundCloud, which sets its own cookies.</p>
+            <div class="listen__cta">
+              <button type="button" class="btn btn--red" id="sc-load">Load player</button>
+              <a class="btn btn--ghost" href="https://soundcloud.com/re-turn-58807653" target="_blank" rel="noopener">Open SoundCloud</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="club" id="club" aria-labelledby="club-title">
+      <div class="wrap club__grid">
+        <div class="club__text" data-reveal>
+          <h2 class="h-display" id="club-title">Matrix Club,<br>Berlin</h2>
+          <p class="club__lead">Under the U-Bahn arches at Warschauer Brücke. RE:TURN takes over Arch 4.</p>
+          <dl class="club__facts">
+            <div><dt>Address</dt><dd>Warschauer Platz 18<br>10245 Berlin</dd></div>
+            <div><dt>Doors</dt><dd>22:00</dd></div>
+            <div><dt>Entry</dt><dd>Strictly 18+<br>Bring your ID</dd></div>
+            <div><dt>Transport</dt><dd>S+U Warschauer Straße<br>3 minutes on foot</dd></div>
+          </dl>
+          <a class="btn btn--ghost" href="https://www.google.com/maps/search/?api=1&query=Matrix+Club+Berlin+Warschauer+Platz+18" target="_blank" rel="noopener">Open in Google Maps</a>
+        </div>
+        <figure class="club__photo" data-reveal>
+          <img src="assets/img/stills/sbahn.jpg" alt="A Berlin S-Bahn passing on the elevated tracks" loading="lazy" width="1600" height="773">
+        </figure>
+      </div>
+    </section>
+
+    <section class="awareness" id="awareness" aria-labelledby="awareness-title">
+      <div class="wrap">
+        <h2 class="h-display" id="awareness-title" data-reveal>Awareness</h2>
+        <p class="awareness__lead" data-reveal>Zero tolerance. Consent is essential and can be withdrawn at any time.</p>
+        <div class="awareness__text" data-reveal>
+          <p>At RE:TURN, we are committed to creating a space where everyone feels safe, respected, and welcome. We have zero tolerance for any form of discrimination, racism, sexism, homophobia, transphobia, harassment, intimidation, unwanted physical contact, or any other behavior that makes another person feel unsafe or uncomfortable.</p>
+          <p>Respect each other's boundaries. Consent is essential and can be withdrawn at any time.</p>
+          <p>If at any point during the event you experience or witness a situation that makes you feel uncomfortable, unsafe, or disrespected, please approach any member of the RE:TURN or Matrix Club team, security, or bar staff. We are here to listen, support you, and help you handle the situation.</p>
+          <p>Take care of yourself, take care of each other, and help us keep the dance floor a safe space for everyone.</p>
+          <p class="awareness__sign">RE:TURN Collective</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer__grid">
+      <div class="footer__brand">
+        <img class="footer__mark" src="assets/logo/re-white-480.png" alt="RE:" width="480" height="206" loading="lazy">
+        <p class="footer__about">RE:TURN is the techno night of Matrix Club Berlin, run by a collective of resident DJs, producers and designers.</p>
+      </div>
+      <ul class="footer__links" aria-label="Follow RE:TURN">
+        <li><a href="https://www.instagram.com/returncollective_bln/" target="_blank" rel="noopener">Instagram</a></li>
+        <li><a href="https://ra.co/promoters/186821" target="_blank" rel="noopener">Resident Advisor</a></li>
+        <li><a href="https://soundcloud.com/re-turn-58807653" target="_blank" rel="noopener">SoundCloud</a></li>
+        <li><a href="https://www.facebook.com/matrixberlin/" target="_blank" rel="noopener">Facebook</a></li>
+      </ul>
+      <ul class="footer__legal" aria-label="Legal">
+        <li><a href="https://www.matrix-berlin.de/" target="_blank" rel="noopener">Matrix Club</a></li>
+        <li><a href="https://www.ticket.return.de.com/" target="_blank" rel="noopener">Ticket shop</a></li>
+        <li><a href="https://www.matrix-berlin.de/impressum" target="_blank" rel="noopener">Impressum</a></li>
+        <li><a href="https://www.matrix-berlin.de/datenschutz" target="_blank" rel="noopener">Datenschutz</a></li>
+      </ul>
+      <p class="footer__copy">© 2026 RE:TURN Collective, Berlin</p>
+    </div>
+  </footer>
+
+  <script id="events-data" type="application/json">
+  {"shop":"https://www.ticket.return.de.com/","venue":{"name":"Matrix Club Berlin","room":"Arch 4","street":"Warschauer Platz 18","zip":"10245","city":"Berlin"},"events":[
+    {"id":"2026-10-23","date":"2026-10-23","doors":"22:00","lineup":["Kopoloko"],"opening":"Zutri","genre":"Techno","entry":{"ladies":15,"gents":17},"age":"18+","tickets":"https://www.ticket.return.de.com/details/244680/"},
+    {"id":"2026-10-24","date":"2026-10-24","doors":"22:00","lineup":["Buyooo b2b Kopoloko"],"opening":null,"genre":"Techno","entry":{"ladies":15,"gents":17},"age":"18+","tickets":"https://www.ticket.return.de.com/details/244681/"},
+    {"id":"2026-10-30","date":"2026-10-30","doors":"22:00","lineup":["Any Couture"],"opening":"Freego","genre":"Techno","entry":{"ladies":15,"gents":17},"age":"18+","tickets":"https://www.ticket.return.de.com/details/244682/"},
+    {"id":"2026-10-31","date":"2026-10-31","doors":"22:00","lineup":["Artness","Kopoloko","Buyooo"],"opening":null,"genre":"Techno","entry":{"ladies":15,"gents":17},"age":"18+","tickets":"https://www.ticket.return.de.com/details/244683/"}
+  ]}
+  </script>
+  <script src="js/main.js" defer></script>
+</body>
+</html>
